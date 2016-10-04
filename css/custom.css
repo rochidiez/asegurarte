@@ -1,0 +1,389 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+
+
+body {
+	padding-bottom: 20px;
+	color: #666;
+}
+.ui-widget-header {
+	background-color: #1688c9 !important;
+}
+
+.btn {
+	border-width: 0 1px 4px 1px;
+}
+.btn-primary {
+	background-color: #1688c9;
+	border-color: #1b7493;
+}
+.btn-lg {
+	font-size: 28px;
+}
+
+h2 {
+	padding-left: 15px;
+	color: #1688c9;
+	font-weight: bold;
+}
+
+label.error {
+	padding: 3px 5px;
+	margin: 0;
+	font-family: inherit;
+	font-size: 10px;
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+	position: absolute;
+	top: 24px;
+	right: 6px;
+	-webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 5px !important;
+}
+
+textarea {
+	resize: none;
+}
+
+.alert {
+	display: none;
+}
+
+/*HEADER*/
+.header h3 {
+	margin-left: 11px;
+}
+.arts {
+	margin: 30px 15px 0 0;
+}
+	.arts p {
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 0 0 15px;
+	}
+
+
+/*CONTENT*/
+.grey-back {
+	background: #e7e7e7;
+	padding: 20px 0;
+	width: auto;
+}
+.jumbotron {
+	height: 283px;
+	overflow: hidden;
+	padding: 0 !important;
+	position: relative;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+	.jumbotron article {
+		position: absolute;
+		z-index: 500;
+		top: 20px;
+		bottom: 20px;
+		right: 20px;
+		margin-left: 20px;
+		max-width: 500px;
+		-webkit-border-radius: 5px !important;
+        -moz-border-radius: 5px !important;
+        border-radius: 5px !important;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.5);
+        color: #fff;
+        text-align: right;
+        padding: 15px;
+	}
+		.jumbotron article h1 {
+			margin: 0 0 20px 0;
+			font-size: 43px;
+			font-weight: normal;
+		}
+
+
+#columnas div.gre-box {
+	-webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 5px !important;
+    background-color: #d8d8d8;
+    padding: 15px;
+    min-height: 177px;
+}
+	#columnas div.gre-box img {
+		-webkit-border-radius: 5px !important;
+	    -moz-border-radius: 5px !important;
+	    border-radius: 5px !important;
+	    margin-right: 15px;
+	    float: left;
+	    height: 145px;
+	}
+	#columnas div.gre-box center {
+		text-align: right;
+		margin-top: 15px;
+	}
+
+#homeform .inline {
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+}
+	#homeform .form-group {
+		position: relative;
+	}
+.row2 center {
+	margin-top: 0 !important;
+}
+	.row2 center h3 {
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+
+/*NOSOTROS*/
+#nosotros {
+	margin: 0;
+	font-size: 15px;
+}
+	.firma {
+		margin: 20px 15px;
+	}
+		.firma strong {
+			font-size: 18px;
+		}
+
+/*FAQ*/
+#faq {
+	margin: 0;
+}
+	#faq .col-md-3 {
+		text-align: right;
+	}
+
+#accordion {
+	margin: 20px 0 40px;
+}
+#accordion .panel-title a {
+	color: #666;
+}
+#accordion .panel-title a:hover  {
+	color: #1688c9;
+	text-decoration: none !important;
+}
+#accordion .panel-body {
+	padding: 25px;
+}
+.list-group-item {
+	background-color: #F8F8F8;
+}
+.list-group-item > .badge {
+	float: none;
+	background-color: #1688c9;
+}
+
+/*COMO AFILIARSE*/
+.infograf {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 700px;
+}
+	.infograf > div {
+		padding: 0;
+	}
+	.infograf > div section {
+		margin: 7px;
+	}
+.infograf .list-group {
+	max-width: 300px;
+	color: #666;
+	margin: 0 auto;
+}
+.infograf .default .list-group {
+	max-width: none;
+}
+.infograf .red li{
+	background-color: #ff4136;
+	border-color: #911b17;
+	color: #fff;
+	font-weight: bold;
+	margin: 15px 0;
+	font-size: 17px;
+}
+.infograf h1{
+	font-size: 25px;
+	margin: 0 auto 15px auto;
+}
+.infograf .default section {
+	/*background: #1688c9;*/
+	/*color: #fff;*/
+	text-align: center;
+	padding: 20px;
+}
+.infograf .primary section {
+	background: #1688c9;
+	color: #fff;
+	text-align: center;
+	padding: 40px;
+}
+.infograf .warning section {
+	background: #ff851b;
+	color: #fff;
+	text-align: center;
+	padding: 40px;
+}
+.infograf .danger section {
+	background: #ff4136;
+	color: #fff;
+	text-align: center;
+	padding: 40px;
+}
+.infograf .success section {
+	background: #28b62c;
+	color: #fff;
+	text-align: center;
+	padding: 40px;
+}
+.infograf span {
+	font-size: 30px;
+}
+.infograf span.glyphicon-arrow-down {
+	font-size: 55px;
+}
+
+/*CONTACTO*/
+#contacto {
+	max-width: 600px;
+	margin: auto;
+}
+	#contacto .form-group {
+		position: relative;
+	}
+
+/*FOOTER*/
+.footer {
+	background: #1688c9;
+	padding: 10px 0;
+	color: #fff;
+	  position: absolute;
+	  bottom: 0;
+	  width: 100%;
+	  /* Set the fixed height of the footer here */
+	  height: 100px;
+}
+	.footer .col-md-2 img {
+		margin-top: -45px;
+	}
+	
+	.footer .col-md-6 {
+		padding-top: 27px;
+	}
+		.footer .col-md-6 a {
+			color: #fff;
+			font-size: 12px;
+			margin-right: 10px;
+		}
+	.footer .col-md-4 {
+		text-align: right;
+		padding-top: 5px;
+	}
+
+
+/*MEDIA QUERIES*/
+@media (max-width:992px) and (min-width:768px) {
+	/*HEADER*/
+	.arts {
+		width: 380px;
+		text-align: center;
+	}
+		.arts p {
+			margin: 0;
+		}
+		.arts img {
+			width: 70%;
+		}
+
+	/*NAVBAR*/
+	.nav > li > a {
+		padding: 15px 8px;
+	}
+
+	.hideonmob {
+		display: none;
+	}
+	/*FAQ*/
+	#faq .col-md-3 {
+		text-align: center;
+		padding-top: 10px;
+	}
+}
+
+
+
+@media all and (min-width: 768px) {
+	/*NAVBAR*/
+	.container-fluid {
+		padding-left: 0;
+	}
+	.navbar {
+		margin: 20px 0px 20px 0;
+		font-size: 13px;
+	}
+	.navbar-right a {
+		padding: 12px 5px !important;
+	}
+
+}
+
+@media all and (max-width: 768px) {
+	/*HEADER*/
+	.arts {
+		width: 380px;
+		text-align: center;
+	}
+		.arts p {
+			margin: 0;
+		}
+		.arts img {
+			width: 70%;
+		}
+	.hideonmob {
+		display: none;
+	}
+	/*FAQ*/
+	#faq .col-md-3 {
+		text-align: center;
+		padding-top: 10px;
+	}
+}
+
+@media all and (max-width: 610px) {
+	/*HEADER*/
+	.arts {
+		display: none;
+	}
+}
+
+@media all and (max-width: 572px) {
+	.jumbotron article h1 {
+		font-size: 35px;
+	}
+
+	.col-xs-8 img {
+		width: 22%;
+	}
+}
