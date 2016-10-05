@@ -18,6 +18,7 @@
 
 <!-- SCRIPTS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/20140415/jquery.cycle2.min.js"></script>
 <script src="js/jquery.validate.js"></script>
 <script src='jquery/jquery-ui.min.js' type='text/javascript'></script>
@@ -55,7 +56,7 @@
 					<ul class="list-group red">
 					  	<li class="list-group-item">NO elija su ART solo por las alicuotas</li>
 					</ul>
-					
+
 					<span class="glyphicon glyphicon-arrow-down"></span>
 				</section>
 			</div>
@@ -71,7 +72,7 @@
 
 					Presentación de la documentación.<br><br>
 					<span class="glyphicon glyphicon-folder-open"></span><br><br>
-					
+
 					<ul class="list-group">
 					  	<li class="list-group-item"><strong>Persona física:</strong> DNI original y copia.</li>
 					  	<li class="list-group-item"><strong>Persona jurídica:</strong> constancia de la representación.</li>
@@ -120,7 +121,7 @@
     	$(function(){
 
     	});
-    	
+
     </script>
 </body>
 </html>

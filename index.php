@@ -1,6 +1,6 @@
 <?php
 include_once 'srv/dataVisitaIns.php';
-$menuActivo='home'; 
+$menuActivo='home';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -24,6 +24,7 @@ $menuActivo='home';
 <script src="js/jquery.validate.js"></script>
 <script src='jquery/jquery.placeholder.js' type='text/javascript'></script>
 <script src="js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 <script src="js/ie10-viewport-bug-workaround.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <!-- Google Code para etiquetas de remarketing -->
@@ -194,7 +195,7 @@ var google_remarketing_only = true;
 	        });
 	    }
 
-	  
+
 
     	$(function(){
     		//Funcion que pasa el titulo de las slides
@@ -210,7 +211,7 @@ var google_remarketing_only = true;
 	          	}
 	        });
     	});
-    	
+
     </script>
 </body>
 </html>

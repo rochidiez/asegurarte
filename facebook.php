@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
 
 <title>asegurARTe</title>
@@ -90,14 +91,14 @@
 					</div>
 				</div>
 			</div>
-			
+
 		</div>
 	</div>
 
 	<?php include('includes/footer.php'); ?>
 
 	<script>
-	  
+
     	$(function(){
     		//Funcion que pasa el titulo de las slides
    //  		$('.cycle-slideshow').on( 'cycle-after', function( event, optionHash, outgoingSlideEl, incomingSlideEl ) {
@@ -105,7 +106,7 @@
 			//     $('.jumbotron h1').html(title);
 			// });
     	});
-    	
+
     </script>
 </body>
 <script>
@@ -148,14 +149,14 @@
 	      success: function(data, textStatus, xhr) {
 	        //called when successful
 	    	// console.log(data);
-			location.replace('fbthanks.php');	    	
+			location.replace('fbthanks.php');
 	      },
 	      error: function(xhr, textStatus, errorThrown) {
 	        //called when there is an error
 	        console.log(textStatus);
 	      }
 	    });
-	    
+
 	});
   } else if (response.status === 'not_authorized') {
     // The person is logged into Facebook, but not your app.

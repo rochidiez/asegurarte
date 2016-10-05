@@ -1,4 +1,5 @@
-<div class="container">
+
+<div class="container hideonmob">
 		<!-- Header -->
 		<div class="header">
 			<h4 align="right" style="color: #1688c9;">Línea de contacto &nbsp;&nbsp;<b> 0810 999 0913</b></h4>
@@ -10,7 +11,7 @@
 				<p><a href="http://www.smgart.com.ar/index.asp" target="_blank"><img src="img/arts/smg.png" alt=""></a></p>
 				<p><a href="http://www.qbe.com.ar/ar/home.asp" target="_blank"><img src="img/arts/qbe.png" alt=""></a></p>
 				-->
-				
+
 				<p><a href="formLicitacion.php" target="_blank"><img src="img/arts/berkley.png" alt=""></a></p>
 				<p><a href="formLicitacion.php" target="_blank"><img src="img/arts/experta.png" alt=""></a></p>
 				<!-- <p><a href="formLicitacion.php" target="_blank"><img src="img/arts/lacaja.png" alt=""></a></p> -->
@@ -55,7 +56,7 @@
 				            </ul>
 				        </li>
 						<li <?php echo $menuActivo == 'contacto'   ? 'class="active"' :''?>><a href="contacto.php">Contacto</a></li>
-						
+
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#"><img src="img/face.png" alt=""></a></li>
@@ -66,4 +67,17 @@
 			</div><!--/.container-fluid -->
 		</nav>
 
+
 	</div> <!-- /container -->
+
+			<div class="navbar-mobile">
+				<div class="navbar__header">
+					<img src="img/menu.svg" />
+					<h1 class="logo-min"><img src="img/logo.png" alt="asegurARTe"></h1>
+				</div>
+				<div class="navbar__phone">
+					<p>
+						Llamanos   0810 999 0913
+					</p>
+				</div>
+			</div>

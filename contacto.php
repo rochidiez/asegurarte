@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
 
     <title>asegurARTe</title>
-	
+
 	<!-- STYLES -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
@@ -23,7 +24,7 @@
 
 	<div class="grey-back">
 		<div class="container" style="max-width: 600px;">
-	  		
+
 	  		<h2>Contacto</h2>
 			<hr>
 
@@ -46,7 +47,7 @@
 					<!-- <label for="consult">Nombre</label> -->
 					<textarea class="form-control" id="consulta" placeholder="Consulta" rows="5" required></textarea>
 				</div>
-				
+
 				<center><button type="submit" class="btn btn-m btn-primary">Enviar</button></center>
 			</form>
 			<!-- fin FORM -->
@@ -118,7 +119,7 @@
 	          	}
 	        });
     	});
-    	
+
     </script>
   </body>
 </html>

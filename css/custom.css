@@ -288,7 +288,7 @@ textarea {
 	.footer .col-md-2 img {
 		margin-top: -45px;
 	}
-	
+
 	.footer .col-md-6 {
 		padding-top: 27px;
 	}
@@ -322,9 +322,7 @@ textarea {
 		padding: 15px 8px;
 	}
 
-	.hideonmob {
-		display: none;
-	}
+
 	/*FAQ*/
 	#faq .col-md-3 {
 		text-align: center;
@@ -346,24 +344,35 @@ textarea {
 	.navbar-right a {
 		padding: 12px 5px !important;
 	}
-
+  .navbar-mobile {display: none;}
 }
 
 @media all and (max-width: 768px) {
+
+  /* MOBILE */
+  body {font-family: 'Roboto', Arial, sans-serif;}
+  .hideonmob {
+    display: none;
+  }
 	/*HEADER*/
-	.arts {
-		width: 380px;
-		text-align: center;
-	}
-		.arts p {
-			margin: 0;
-		}
-		.arts img {
-			width: 70%;
-		}
-	.hideonmob {
-		display: none;
-	}
+    .navbar-mobile {display: block;}
+    .navbar__header {display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;}
+    .navbar__header .logo-min { flex-grow: 2;
+      text-align: center;
+    margin: 0;}
+    .navbar__header .logo-min img {width: 60px;}
+    .navbar__phone {background-color: #1688C9;
+      text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 300;
+    margin-top: 10px;  }
+    .navbar__phone p {margin-bottom: 0;}
+
 	/*FAQ*/
 	#faq .col-md-3 {
 		text-align: center;

@@ -8,7 +8,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
-
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <title>asegurARTe</title>
 
 <!-- STYLES -->
@@ -38,7 +38,7 @@
 	<div class="container">
 
 		<h2>Sobre nosotros</h2>
-		
+
 		<div id="nosotros" class="row">
 			<div class="col-md-6">
 				<p>Asegurarte es la empresa líder de comercialización de Seguros de ART por Internet. Ofrecemos cotización inmediata de más de 6 aseguradoras para el segmento de accidentes de riesgos de trabajo.</p>
@@ -55,7 +55,7 @@
 				<p>Muchas gracias,</p>
 			</div>
 		</div>
-		
+
 		<div class="firma">
 			<strong>Gonzalo Delger</strong><br>
 			C.E.O.<br>
@@ -73,7 +73,7 @@
     	$(function(){
 
     	});
-    	
+
     </script>
 </body>
 </html>
