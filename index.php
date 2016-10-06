@@ -20,6 +20,7 @@ $menuActivo='home';
 
 <!-- SCRIPTS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/20140415/jquery.cycle2.min.js"></script>
 <script src="js/jquery.validate.js"></script>
 <script src='jquery/jquery.placeholder.js' type='text/javascript'></script>
@@ -62,13 +63,16 @@ var google_remarketing_only = true;
 				<img src="img/cycle/03.jpg" alt="" txt="Recibirás en tu email las <strong> propuestas</strong>">
 
 				<article>
+					<div class="n1">
+						<img src="img/n1.png" alt="Sitio Número 1 en consultas de ART">
+					</div>
 					<h1>
 						Desde hoy podés cotizar tu <strong>póliza online</strong>
 					</h1>
-					<p>
+					<p class="cta">
 						<span style="text-align: left;">Riesgos del Trabajo &nbsp;&nbsp;&nbsp;&nbsp;</span>
 						<a class="btn btn-lg btn-primary" href="formLicitacion.php" role="button">
-							<span class="glyphicon glyphicon-ok-sign"></span> Cotizar online</a>
+							<span class="glyphicon glyphicon-ok-sign"></span>Cotizá tu póliza ONLINE</a>
 					</p>
 				</article>
 			</div>
@@ -128,6 +132,15 @@ var google_remarketing_only = true;
 
 
 		</div>
+	</div>
+
+
+	<div class="moreInfo">
+		<p>
+			Asegurarte es la empresa líder de comercialización de <b>Seguros de ART por Internet.</b>
+		</p>
+		<img src="img/asegurarte-photo.png"  />
+
 	</div>
 
 	<?php include('includes/footer.php'); ?>

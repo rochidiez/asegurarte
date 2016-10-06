@@ -1,4 +1,3 @@
-
 <div class="container hideonmob">
 		<!-- Header -->
 		<div class="header">
@@ -72,7 +71,13 @@
 
 			<div class="navbar-mobile">
 				<div class="navbar__header">
-					<img src="img/menu.svg" />
+					<div class="navbar__header--icon" id="nav-icon3">
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					</div>
+
 					<h1 class="logo-min"><img src="img/logo.png" alt="asegurARTe"></h1>
 				</div>
 				<div class="navbar__phone">
@@ -81,3 +86,34 @@
 					</p>
 				</div>
 			</div>
+
+
+			<div class="navbar-mobile-list hide">
+				<ul class="nav navbar-nav">
+					<li <?php echo $menuActivo == 'home'       ? 'class="active"' :''?>><a href="index.php">Home</a></li>
+					<li <?php echo $menuActivo == 'nosotros'   ? 'class="active"' :''?>><a href="sobre-nosotros.php">Nosotros</a></li>
+					<!-- <li <?php //echo $menuActivo == 'afiliarse'   ? 'class="active"' :''?>><a href="como-afiliarse.php">Cómo afiliarse</a></li> -->
+					<li <?php echo $menuActivo == 'licitacion' ? 'class="active"' :''?>><a href="formLicitacion.php">Licitá tu póliza</a></li>
+					<!-- li><a href="#">Ingreso Contador</a></li -->
+					<!-- li><a href="#">Ingreso Productor</a></li -->
+					<li><a href="http://54.68.195.226:8080/webDesap/do/app?pRecurso=72&nombreForm=TOP&tema=neptune">Exclusivo ART</a></li>
+					<li <?php echo $menuActivo == 'faq'   ? 'class="active"' :''?>><a href="preguntas-frecuentes.php">Preguntas Frecuentes</a></li>
+					<li class="dropdown <?php echo $menuActivo == 'ayuda'   ? 'active' :''?>">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Ayuda <span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="como-afiliarse.php">Cómo afiliarse</a></li>
+									<li><a href="como-cambiar-art.php">Cómo cambiar de ART</a></li>
+									<li><a href="http://www.srt.gob.ar/index.php/trabajador/cual-es-mi-art">Cual es mi ART?</a></li>
+									</ul>
+							</li>
+					<li <?php echo $menuActivo == 'contacto'   ? 'class="active"' :''?>><a href="contacto.php">Contacto</a></li>
+
+				</ul>
+			</div>
+
+<script>
+	$( ".navbar__header--icon" ).click(function() {
+			$(this).toggleClass('open');
+			$(".navbar-mobile-list" ).toggleClass( "show").toggleClass( "animated").toggleClass("fadeInDown");
+	});
+</script>
