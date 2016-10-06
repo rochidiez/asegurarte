@@ -8,7 +8,8 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 <title>asegurARTe</title>
 
 <!-- STYLES -->
@@ -33,8 +34,10 @@
 <body>
 
 	<?php include('includes/header.php'); ?>
-
-	<div class="grey-back">
+<div class="photo-aboutus">
+	<img src="img/aboutus-photo.png" />
+</div>
+	<div class="grey-back nogrey">
 	<div class="container">
 
 		<h2>Sobre nosotros</h2>
