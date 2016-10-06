@@ -391,10 +391,7 @@ textarea {
     .navbar-right a {
         padding: 12px 5px !important;
     }
-    .navbar-mobile {
-        display: none;
-    }
-    .n1 {
+    .navbar-mobile, .moreInfo, .n1  {
         display: none;
     }
 }
@@ -566,6 +563,8 @@ textarea {
         ;
         flex-direction: column;
         -webkit-flex-direction: column;
+        width: 100% ;
+        max-width: 100%;
     }
     .jumbotron .cta {
         margin-bottom: 0;
@@ -585,6 +584,7 @@ textarea {
         text-align: left;
         padding: 0 20px;
     }
+    .moreInfo {display: block;}
     .moreInfo p {
         padding: 20px;
     }
