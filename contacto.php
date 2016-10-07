@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
@@ -22,8 +23,11 @@
   <body>
 
   	<?php include('includes/header.php'); ?>
+    <div class="photo-aboutus">
+    	<img src="img/img-licitacion.png" />
+    </div>
 
-	<div class="grey-back">
+	<div class="grey-back nogrey">
 		<div class="container" style="max-width: 600px;">
 
 	  		<h2>Contacto</h2>
@@ -49,7 +53,7 @@
 					<textarea class="form-control" id="consulta" placeholder="Consulta" rows="5" required></textarea>
 				</div>
 
-				<center><button type="submit" class="btn btn-m btn-primary">Enviar</button></center>
+				<center><button type="submit" class="btn btn-m btn-primary col-sm-12 col-xs-12">Enviar</button></center>
 			</form>
 			<!-- fin FORM -->
 
@@ -60,7 +64,6 @@
   	<?php include('includes/footer.php'); ?>
 
 	<!-- SCRIPTS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/20140415/jquery.cycle2.min.js"></script>
     <script src="js/jquery.validate.js"></script>
     <script src="js/bootstrap.min.js"></script>

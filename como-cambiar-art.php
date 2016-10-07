@@ -35,7 +35,7 @@
 
 	<?php include('includes/header.php'); ?>
 
-	<div class="grey-back">
+	<div class="grey-back nogrey">
 	<div class="container">
 
 		<h2>Cómo cambiar de ART</h2>
@@ -58,7 +58,7 @@
 					  	<li class="list-group-item">NO elija su ART solo por las alicuotas</li>
 					</ul>
 
-					<span class="glyphicon glyphicon-arrow-down"></span>
+					<span class="glyphicon glyphicon-arrow-down hideonmob"></span>
 				</section>
 			</div>
 		</div>
@@ -68,17 +68,17 @@
 				<section>
 					<h1>ELIJA SU NUEVA ART</h1>
 
-					Presentación de la documentación.<br><br>
-					<span class="glyphicon glyphicon-folder-open"></span><br><br>
+					Presentación de la documentación.
+					<span class="glyphicon glyphicon-folder-open hideonmob"></span>
 
 					<ul class="list-group">
 					  	<li class="list-group-item"><strong>Persona física:</strong> DNI original y copia.</li>
 					  	<li class="list-group-item"><strong>Persona jurídica:</strong> constancia de la representación.</li>
 					  	<li class="list-group-item"><strong>Apoderado:</strong> DNI y poder.</li>
 					</ul>
-					<br><br>
+				
 
-					<span class="glyphicon glyphicon-arrow-down"></span>
+					<span class="glyphicon glyphicon-arrow-down hideonmob"></span>
 
 				</section>
 			</div>
@@ -89,18 +89,18 @@
 				<section>
 					<h1>NUEVA ART</h1>
 
-					Verificará con la ART de origen<br><br>
+					Verificará con la ART de origen
 
-					<span class="glyphicon glyphicon-arrow-down"></span>
+					<span class="glyphicon glyphicon-arrow-down hideonmob"></span>
 
 				</section>
 			</div>
 		</div>
 
 		<div class="row infograf">
-			<div class="col-xs-6 warning">
+			<div class="col-md-6 col-xs-12 warning">
 				<section>
-					<strong>PLAZOS QUE HABILITAN EL TRASPASO</strong><br><br>
+					<strong>PLAZOS QUE HABILITAN EL TRASPASO</strong>
 
 					<ul class="list-group">
 					  	<li class="list-group-item">Si el contrato vigente es de alta al sistema: <strong>6 meses</strong></li>
@@ -110,9 +110,9 @@
 
 				</section>
 			</div>
-			<div class="col-xs-6 warning">
+			<div class="col-md-6 col-xs-12 warning">
 				<section>
-					<strong>SITUACIÓN DE PAGO DE CUOTAS</strong><br><br>
+					<strong>SITUACIÓN DE PAGO DE CUOTAS</strong>
 
 					<ul class="list-group">
 					  	<li class="list-group-item">En caso de objeción por deuda, el empleador puede regularizar con anterioridad al día 20 del mes en que realiza el traspaso.</li>

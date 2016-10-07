@@ -36,7 +36,7 @@
 
 	<?php include('includes/header.php'); ?>
 
-	<div class="grey-back">
+	<div class="grey-back nogrey">
 	<div class="container">
 
 		<h2>Preguntas frecuentes</h2>
@@ -46,7 +46,7 @@
 				<p>Para ver las respuestas hacé clic sobre las preguntas. Si tenés más dudas podés descargar el documento de <strong>Preguntas Frecuentes</strong> de la <strong>Superintendencia de Riesgos de Trabajo (SRT)</strong>.</p>
 			</div>
 			<div class="col-md-3">
-				<a class="btn btn-m btn-success" href="docs/faq_SRT_2014.pdf" download="docs/faq_SRT_2014.pdf" role="button"><span class="glyphicon glyphicon glyphicon-download"></span> Descargar documento</a>
+				<a class="btn btn-m btn-success buttonmob" href="docs/faq_SRT_2014.pdf" download="docs/faq_SRT_2014.pdf" role="button"><span class="glyphicon glyphicon glyphicon-download"></span> Descargar documento</a>
 			</div>
 		</div>
 
@@ -57,7 +57,7 @@
 				<div class="panel-heading" role="tab" id="heading1">
 					<h4 class="panel-title">
 						<a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
-							¿Qué aspectos se deben tener en cuenta al elegir una ART?
+							¿Qué aspectos se deben tener en cuenta al elegir una ART?<span class="triangle"></span>
 						</a>
 					</h4>
 				</div>
@@ -113,7 +113,7 @@
 				<div class="panel-heading" role="tab" id="heading2">
 					<h4 class="panel-title">
 						<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
-							¿Cómo se contrata una ART?
+							¿Cómo se contrata una ART?<span class="triangle"></span>
 						</a>
 					</h4>
 				</div>
@@ -143,8 +143,8 @@
 			<div class="panel panel-default">
 				<div class="panel-heading" role="tab" id="heading3">
 					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
-							¿A partir de cuándo se hace efectivo el contrato de afiliación a una ART?
+						<a class="arrow" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+							¿A partir de cuándo se hace efectivo el contrato de afiliación a una ART?<span class="triangle"></span>
 						</a>
 					</h4>
 				</div>
@@ -164,7 +164,7 @@
 				<div class="panel-heading" role="tab" id="heading4">
 					<h4 class="panel-title">
 						<a data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
-							¿Cuánto debo esperar para realizar el traspaso a otra ART?
+							¿Cuánto debo esperar para realizar el traspaso a otra ART? <span class="triangle"></span>
 						</a>
 					</h4>
 				</div>
@@ -189,8 +189,8 @@
 			<div class="panel panel-default">
 				<div class="panel-heading" role="tab" id="heading5">
 					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse5">
-							¿Cómo se abona la cobertura que brinda la ART?
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse5" >
+							¿Cómo se abona la cobertura que brinda la ART?<span class="triangle"></span>
 						</a>
 					</h4>
 				</div>
@@ -210,8 +210,8 @@
 			<div class="panel panel-default">
 				<div class="panel-heading" role="tab" id="heading6">
 					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="true" aria-controls="collapse6">
-							¿Cómo se calcula la cuota por la cobertura que brinda la ART?
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="true" aria-controls="collapse6" >
+							¿Cómo se calcula la cuota por la cobertura que brinda la ART?<span class="triangle"></span>
 						</a>
 					</h4>
 				</div>
@@ -238,8 +238,8 @@
 			<div class="panel panel-default">
 				<div class="panel-heading" role="tab" id="heading7">
 					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="true" aria-controls="collapse7">
-							¿Cuál es el valor de las alícuotas que se aplican para el cálculo de la cuota de afiliación?
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="true" aria-controls="collapse7" >
+							¿Cuál es el valor de las alícuotas que se aplican para el cálculo de la cuota de afiliación?<span class="triangle"></span>
 						</a>
 					</h4>
 				</div>
@@ -260,8 +260,8 @@
 			<div class="panel panel-default">
 				<div class="panel-heading" role="tab" id="heading8">
 					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="true" aria-controls="collapse8">
-							¿Cómo se pueden consultar las alícuotas?
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="true" aria-controls="collapse8" >
+							¿Cómo se pueden consultar las alícuotas?<span class="triangle"></span>
 						</a>
 					</h4>
 				</div>
@@ -280,8 +280,8 @@
 			<div class="panel panel-default">
 				<div class="panel-heading" role="tab" id="heading9">
 					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="true" aria-controls="collapse9">
-							¿Cómo se informan altas, bajas o modificaciones relacionadas con el personal?
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="true" aria-controls="collapse9" >
+							¿Cómo se informan altas, bajas o modificaciones relacionadas con el personal?<span class="triangle"></span>
 						</a>
 					</h4>
 				</div>
@@ -302,8 +302,8 @@
 			<div class="panel panel-default">
 				<div class="panel-heading" role="tab" id="heading10">
 					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="true" aria-controls="collapse10">
-							¿Qué sucede si mi contrato con la ART se encuentra rescindido?
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="true" aria-controls="collapse10" >
+							¿Qué sucede si mi contrato con la ART se encuentra rescindido?<span class="triangle"></span>
 						</a>
 					</h4>
 				</div>
@@ -325,7 +325,7 @@
 				<div class="panel-heading" role="tab" id="heading11">
 					<h4 class="panel-title">
 						<a data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="true" aria-controls="collapse11">
-							¿Por qué una ART no me quiere afiliar?
+							¿Por qué una ART no me quiere afiliar? <span class="triangle"></span>
 						</a>
 					</h4>
 				</div>
@@ -348,12 +348,11 @@
 	</div>
 
 	<?php include('includes/footer.php'); ?>
-
 	<script>
-    	$(function(){
+	$("a").click(function() {
+	  $(this).toggleClass("down");
+	});
+	</script>
 
-    	});
-
-    </script>
 </body>
 </html>

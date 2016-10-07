@@ -15,7 +15,7 @@ if($_SESSION['hasbeenhere'] == 1) {
  */
 if( ! $bRefresco || $_POST['lic_PLICITACION'] != '' ){
 	$cMensajeError='';
-	
+
 	// error_log(print_r($_POST, true));
 	if( isset($_POST["lic_BMAIL"])){
 		include_once 'srv/dataLicitacionUpd.php';
@@ -33,6 +33,7 @@ if( ! $bRefresco || $_POST['lic_PLICITACION'] != '' ){
 <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
 
 <title>asegurARTe</title>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <!-- STYLES -->
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -145,7 +146,7 @@ var google_remarketing_only = false;
 				$(this).val(ui.item.label);
 			}
 		});
-		
+
 		$("#lic_CCIIUSECUNDARIO").autocomplete({
 			source : "srv/dataSearchCiuu.php",
 			minLength : 2,
@@ -163,7 +164,7 @@ var google_remarketing_only = false;
 
 		function inicioVariables(){
 			// Si hay valores $_POST se incializa
-			<?php 	
+			<?php
 			foreach ($_POST as $prm => $valor){
 				$pos = strpos ( $prm, 'lic_' );
 				// Solo pasa los parámetros que comienzan con lic_
@@ -195,10 +196,10 @@ var google_remarketing_only = false;
 		// Si viene algún mensaje de error, se muestra
 		var cMensaje='<?php echo $cMensajeError; ?>';
 		if( cMensaje=='OK'){
-			mensajeAlerta('Su transacción ha sido cargada exitosamente.<br>' // 
+			mensajeAlerta('Su transacción ha sido cargada exitosamente.<br>' //
 					+ 'Recibirá las cotizaciones por mail dentro de los próximos 5 días.'
-					, function() { document.location.href ='index.php'; }); 
-		
+					, function() { document.location.href ='index.php'; });
+
 		} else if( cMensaje!=''){
 			mensajeAlerta(cMensaje, inicioVariables);
 		} else {
@@ -212,7 +213,7 @@ var google_remarketing_only = false;
 	});
 	</script>
 
-	<?php 
+	<?php
 	$menuActivo='licitacion';
 	include('includes/header.php');
 

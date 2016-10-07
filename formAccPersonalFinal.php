@@ -41,7 +41,7 @@ if( isset($pVisita)){
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="css/custom.css" rel="stylesheet" type="text/css">
 	<link href="jquery/ap/jquery-ui.min.css" rel="stylesheet" type="text/css" />
-	
+
 	<!-- SCRIPTS -->
 	<?php include('includes/analytics.php'); ?>
 	<script src='jquery/jquery.js' type='text/javascript'></script>
@@ -50,14 +50,14 @@ if( isset($pVisita)){
 	<script src='js/jquery.validate.js' type='text/javascript'></script>
 	<script src='jquery/jquery.placeholder.js' type='text/javascript'></script>
 	<script src='jquery/jquery.blockUI.js' type='text/javascript'></script>
-	
+
 </head>
 <body>
 	<div id="dialogoMensaje" title="Solicitud Ingresada" align="center">
 		<br />
 		<p id="dialogoMensaje_text" style="font-size: 14px;">
-			Muchas Gracias.<br> 
-			Nos comunicaremos con Ud. a la brevedad.		
+			Muchas Gracias.<br>
+			Nos comunicaremos con Ud. a la brevedad.
 		</p>
 		<br />
 		<input type="button" id="btDialogoAceptar" value="Aceptar" class="btn btn-gray col-lg-12 col-md-12 col-sm-12 col-xs-12" />
@@ -95,15 +95,15 @@ if( isset($pVisita)){
 					<br>
 					<br>
 					<br>
-					<center>	
+					<center>
 						<strong>Muchas Gracias</strong>.<br>
 						Nos comunicaremos con Ud a la brevedad.
 					</center>
 				</span>
 			</div>
 		</div>
-	</div>	
-	<?php 
+	</div>
+	<?php
 	include('includes/footer.php');
 	?>
 </body>

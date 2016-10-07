@@ -353,6 +353,16 @@ textarea {
     padding-top: 5px;
 }
 
+.photo-aboutus {
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.photo-aboutus img {
+    width: 100%;
+    margin-top: -10%;
+}
+
 
 /*MEDIA QUERIES*/
 
@@ -391,7 +401,7 @@ textarea {
     .navbar-right a {
         padding: 12px 5px !important;
     }
-    .navbar-mobile, .moreInfo, .n1  {
+    .navbar-mobile, .moreInfo, .n1, .onlymobile {
         display: none;
     }
 }
@@ -400,11 +410,23 @@ textarea {
     /* MOBILE */
     body {
         font-family: 'Roboto', Arial, sans-serif;
+        padding-bottom: 0;
+        margin-bottom: 60px;
+        color: #1D4359;
+    }
+    .navbar-nav .open .dropdown-menu {margin-left: 30px;}
+    input.form-control::-webkit-input-placeholder {
+        color: #1D4359;
     }
     .hideonmob {
         display: none;
     }
-    p {font-weight: 300;}
+    p {
+        font-weight: 300;
+    }
+    h2 {
+        font-size: 20px;
+    }
     /*HEADER*/
     .navbar-mobile {
         display: block;
@@ -563,7 +585,7 @@ textarea {
         ;
         flex-direction: column;
         -webkit-flex-direction: column;
-        width: 100% ;
+        width: 100%;
         max-width: 100%;
     }
     .jumbotron .cta {
@@ -584,7 +606,9 @@ textarea {
         text-align: left;
         padding: 0 20px;
     }
-    .moreInfo {display: block;}
+    .moreInfo {
+        display: block;
+    }
     .moreInfo p {
         padding: 20px;
     }
@@ -593,16 +617,104 @@ textarea {
     }
     /*FOOTER*/
     .footer {
-        height: auto;
-        bottom: auto;
+        padding: 0;
+        height: 60px;
     }
     .footer .logo-footer img {
         width: 20%;
+        padding: 0;
     }
     /*ABOUT US*/
-    .grey-back.nogrey {background: #ffffff;}
-    .photo-aboutus img {width: 100%;}
-    .firma {text-align: right;}
+    .grey-back.nogrey {
+        background: #ffffff;
+    }
+    .photo-aboutus img {
+        width: 100%;
+    }
+    .firma {
+        text-align: right;
+    }
+    /* FORM LICITACION */
+    .container.relative.clearfix.cb, .col-xs-12.relative.clearfix.contBox, .col-sm-6.col-xs-12.relative.clearfix.wow.fadeInLeft {
+        padding: 0;
+    }
+    .form-group .firstinput {
+        margin-top: 15px;
+    }
+    .form-control {
+        border: 1px solid #979797;
+        color: #1D4359;
+        font-weight: 300;
+    }
+    .mT20xs {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .marginfix {
+        margin-bottom: 15px;
+    }
+    /* PREGUNTAS FRECUENTES */
+    .buttonmob {
+        width: 100%;
+        background-color: #1688C9;
+        border-color: #1688C9;
+    }
+    .panel-heading {
+        border-radius: 0;
+    }
+    .panel-default>.panel-heading {
+        background-color: #57A4D0;
+        border: 0;
+        padding-right: 20px;
+    }
+    #accordion .panel-title a {
+        color: #ffffff;
+    }
+    a:hover, a:focus, #accordion .panel-title a:hover {color: #ffffff;}
+    .triangle {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 8px 7.5px 0 7.5px;
+        border-color: #ffffff transparent transparent transparent;
+        -webkit-transform: rotate(360deg);
+        position: absolute;
+        right: 10px;
+    }
+    a.down .triangle {
+      border-color: transparent transparent #ffffff transparent;
+      border-width: 0 7.5px 8px 7.5px;}
+.panel-title {font-size: 14px;
+  }
+    .list-group-item {background-color: #ffffff;
+      padding: 10px 0;
+      border: 0;
+      font-weight: 300;
+    color: #4A4A4A;}
 
+      /* COMO AFILIARSE*/
+      .infograf .default section {padding: 0 10px;
+        text-align: left;}
+      .infograf h1 {font-size: 16px;
+      color: #1688C9;
+      font-weight: bold;}
+
+      .infograf .red li {
+        color: #4A4A4A;
+        background-color: #ffffff;
+        border-color: #ffffff;
+        margin: 0;
+        font-size: 16px;
+
+      }
+      .infograf .primary section, .infograf .success section, .infograf .danger section, .infograf .warning section {color: #4A4A4A;
+      background-color: #ffffff;
+      padding: 0 10px;
+    text-align: left;}
+    .boldonmob {font-weight: bold;}
+    .infograf .list-group-item {padding: 0 0 10px 0;}
+
+    #contacto {margin: 0 15px;}
+    form button.btn-primary {margin-bottom: 20px;}
 
 }

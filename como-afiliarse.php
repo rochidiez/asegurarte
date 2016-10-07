@@ -35,7 +35,7 @@
 
 	<?php include('includes/header.php'); ?>
 
-	<div class="grey-back">
+	<div class="grey-back nogrey">
 	<div class="container">
 
 		<h2>Cómo afiliarse</h2>
@@ -58,7 +58,7 @@
 					  	<li class="list-group-item">NO elija su ART solo por las alicuotas</li>
 					</ul>
 
-					<span class="glyphicon glyphicon-arrow-down"></span>
+					<span class="glyphicon glyphicon-arrow-down hideonmob"></span>
 				</section>
 			</div>
 		</div>
@@ -66,50 +66,60 @@
 		<div class="row infograf">
 			<div class="col-xs-12 primary">
 				<section>
-					<h1>ELIJA SU ART</h1>
+					<h1>PARA ELEGIR SU ART</h1>
+<p class="boldonmob">
+					Complete la solicitud de afiliación.
+				</p>
 
-					Complete la solicitud de afiliación.<br><br>
-					<span class="glyphicon glyphicon glyphicon-file"></span><br><br>
-
-					Presentación de la documentación.<br><br>
-					<span class="glyphicon glyphicon-folder-open"></span><br><br>
+					<span class="glyphicon glyphicon glyphicon-file hideonmob"></span>
+					<p class="boldonmob">
+						Presentación de la documentación.
+					</p>
+					<span class="glyphicon glyphicon-folder-open hideonmob"></span>
 
 					<ul class="list-group">
 					  	<li class="list-group-item"><strong>Persona física:</strong> DNI original y copia.</li>
 					  	<li class="list-group-item"><strong>Persona jurídica:</strong> constancia de la representación.</li>
 					  	<li class="list-group-item"><strong>Apoderado:</strong> DNI y poder.</li>
 					</ul>
-					<br><br>
 
-					<span class="glyphicon glyphicon-arrow-down"></span>
+
+					<span class="glyphicon glyphicon-arrow-down hideonmob"></span>
 
 				</section>
 			</div>
 		</div>
 
 		<div class="row infograf">
-			<div class="col-xs-6 success">
+			<div class="col-md-6 col-xs-12 success">
 				<section>
-					<h1>ACEPTADA</h1>
-					<strong>EMICIÓN DE CONTRATO</strong><br>
+					<h1>AL SER ACEPTADA</h1>
+					<strong>SE EMITE UN CONTRATO</strong>
 
-					Vigencia desde la fecha estipulada en la Solicitud de Ailiación con plazo de 1 año renovable automáticamente.<br><br>
-					<span class="glyphicon glyphicon glyphicon-print"></span><br><br>
-
-					La solicitud de afiliación y el contrato deben ser firmados por la ART y la parte empeladora.<br><br>
-					<span class="glyphicon glyphicon glyphicon glyphicon-pencil"></span>
+					<p>
+						Vigente desde la fecha estipulada en la <b>Solicitud de Ailiación</b> con plazo de 1 año renovable automáticamente.
+					</p>
+					<span class="glyphicon glyphicon glyphicon-print hideonmob"></span>
+					<strong>LA FIRMA</strong>
+					<p>
+					<b>La solicitud de afiliación</b> y el contrato deben ser firmados por la <b>ART</b> y la parte empeladora.
+					</p>
+					<span class="glyphicon glyphicon glyphicon glyphicon-pencil hideonmob"></span>
 
 				</section>
 			</div>
-			<div class="col-xs-6 danger">
+			<div class="col-md-6 col-xs-12 danger">
 				<section>
-					<h1>RECHAZADA</h1>
+					<h1>AL SER RECHAZADA</h1>
 
-					La ART puede rechazar la afiliación porque el empleador posee un contrato extinguido por falta de pago.<br><br>
-					<span class="glyphicon glyphicon glyphicon glyphicon-ban-circle"></span><br><br>
+				<p>
+					La <b>ART</b> puede rechazar la afiliación porque el empleador posee un contrato extinguido por falta de pago.</p>
+					<span class="glyphicon glyphicon glyphicon glyphicon-ban-circle hideonmob"></span>
 
-					La ART puede negarse a afiliarlo durante el término de 1 año a partir de la fecha de resición.<br><br>
-					<span class="glyphicon glyphicon glyphicon-calendar"></span>
+					<p>
+						La <b>ART</b> puede negarse a afiliarlo durante el término de 1 año a partir de la fecha de resición.
+					</p>
+					<span class="glyphicon glyphicon glyphicon-calendar hideonmob"></span>
 			</div>
 		</div>
 
