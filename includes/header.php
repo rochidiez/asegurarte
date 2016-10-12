@@ -41,10 +41,9 @@
 						<li <?php echo $menuActivo == 'home'       ? 'class="active"' :''?>><a href="index.php">Home</a></li>
 						<li <?php echo $menuActivo == 'nosotros'   ? 'class="active"' :''?>><a href="sobre-nosotros.php">Nosotros</a></li>
 						<!-- <li <?php //echo $menuActivo == 'afiliarse'   ? 'class="active"' :''?>><a href="como-afiliarse.php">Cómo afiliarse</a></li> -->
-						<li <?php echo $menuActivo == 'licitacion' ? 'class="active"' :''?>><a href="formLicitacion.php">Licitá tu póliza</a></li>
+						<li <?php echo $menuActivo == 'licitacion' ? 'class="active"' :''?>><a href="formLicitacion.php">Cotizá tu poliza</a></li>
 						<!-- li><a href="#">Ingreso Contador</a></li -->
 						<!-- li><a href="#">Ingreso Productor</a></li -->
-						<li><a href="http://54.68.195.226:8080/webDesap/do/app?pRecurso=72&nombreForm=TOP&tema=neptune">Exclusivo ART</a></li>
 						<li <?php echo $menuActivo == 'faq'   ? 'class="active"' :''?>><a href="preguntas-frecuentes.php">Preguntas Frecuentes</a></li>
 						<li class="dropdown <?php echo $menuActivo == 'ayuda'   ? 'active' :''?>">
 				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Ayuda <span class="caret"></span></a>
@@ -81,9 +80,9 @@
 					<h1 class="logo-min"><img src="img/logo.png" alt="asegurARTe"></h1>
 				</div>
 				<div class="navbar__phone">
-					<p>
+					<a href="tel:08109990913">
 						Llamanos   0810 999 0913
-					</p>
+					</a>
 				</div>
 			</div>
 
@@ -93,10 +92,9 @@
 					<li <?php echo $menuActivo == 'home'       ? 'class="active"' :''?>><a href="index.php">Home</a></li>
 					<li <?php echo $menuActivo == 'nosotros'   ? 'class="active"' :''?>><a href="sobre-nosotros.php">Nosotros</a></li>
 					<!-- <li <?php //echo $menuActivo == 'afiliarse'   ? 'class="active"' :''?>><a href="como-afiliarse.php">Cómo afiliarse</a></li> -->
-					<li <?php echo $menuActivo == 'licitacion' ? 'class="active"' :''?>><a href="formLicitacion.php">Licitá tu póliza</a></li>
+					<li <?php echo $menuActivo == 'licitacion' ? 'class="active"' :''?>><a href="formLicitacion.php">Cotizá tu poliza</a></li>
 					<!-- li><a href="#">Ingreso Contador</a></li -->
 					<!-- li><a href="#">Ingreso Productor</a></li -->
-					<li><a href="http://54.68.195.226:8080/webDesap/do/app?pRecurso=72&nombreForm=TOP&tema=neptune">Exclusivo ART</a></li>
 					<li <?php echo $menuActivo == 'faq'   ? 'class="active"' :''?>><a href="preguntas-frecuentes.php">Preguntas Frecuentes</a></li>
 					<li class="dropdown <?php echo $menuActivo == 'ayuda'   ? 'active' :''?>">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Ayuda <span class="caret"></span></a>

@@ -522,12 +522,16 @@ textarea {
         text-align: center;
         color: #ffffff;
         font-size: 12px;
-        line-height: 18px;
+        line-height: 30px;
         font-weight: 300;
         margin-top: 10px;
+        min-height: 30px;
+
+
     }
-    .navbar__phone p {
+    .navbar__phone a {
         margin-bottom: 0;
+        color: #ffffff;
     }
     .navbar-mobile-list {
         background: #ffffff;
