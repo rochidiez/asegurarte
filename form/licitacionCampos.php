@@ -12,7 +12,7 @@
 		<input id="lic_BMAIL" name="lic_BMAIL" type="hidden" value="0" />
 
 		<div class="container relative clearfix cb">
-					<div class="form-group hideonmob">
+					<!-- <div class="form-group hideonmob">
 						<span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 relative pL0">
 							<strong><span style="color: red;">IMPORTANTE:</span> PERSONAL DOMESTICO</strong>.
 							Según la Res. SRT 2224/2014, a partir del día 10/12/2014,
@@ -20,7 +20,7 @@
 							tener una ART ASIGNADA POR OFICIO (No se cotizan nuevos
 							contratos).
 						</span>
-					</div>
+					</div> -->
 
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 relative clearfix contBox">
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 relative clearfix wow fadeInLeft"
@@ -74,9 +74,9 @@
 				<div class="mT20xs col-lg-6 col-md-6 col-sm-6 col-xs-12 relative clearfix wow fadeInRight"
 					data-wow-duration="0.7s" data-wow-delay="0.8s">
 
-					<div id="czte_lic_login_facebook" class="form-group hideonmob" style="height: 30px;">
+					<!-- <div id="czte_lic_login_facebook" class="form-group hideonmob" style="height: 30px;">
 						&nbsp;
-					</div>
+					</div> -->
 					<div class="form-group">
 						<div class="col-sm-9 col-xs-9 onlymobile">
 							Cantidad de Empleados <span style="font-size: 10px; font-weight: 300;">(opcional)</span>

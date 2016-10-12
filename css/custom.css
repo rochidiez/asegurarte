@@ -404,6 +404,7 @@ textarea {
     .navbar-mobile, .moreInfo, .n1, .onlymobile {
         display: none;
     }
+    .container.relative.clearfix.cb {margin-top: 20px;}
 }
 
 @media all and (max-width: 768px) {
@@ -625,7 +626,7 @@ textarea {
         height: 60px;
     }
     .footer .logo-footer img {
-        width: 20%;
+        width: 40px;
         padding: 0;
     }
     /*ABOUT US*/
