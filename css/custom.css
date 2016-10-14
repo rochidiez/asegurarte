@@ -523,17 +523,45 @@ textarea {
         text-align: center;
         color: #ffffff;
         font-size: 12px;
-        line-height: 30px;
-        font-weight: 300;
+        line-height: 34px;
+        font-weight: 600;
         margin-top: 10px;
-        min-height: 30px;
-
-
+        min-height: 34px;
     }
     .navbar__phone a {
-        margin-bottom: 0;
-        color: #ffffff;
+        padding: 5px 10px;
+        cursor: pointer;
+        margin: 2px;
+        color: #1688c9;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -o-border-radius: 4px;
+        -webkit-animation: background 5s infinite;
+        -moz-animation:    background 5s infinite;
+        -o-animation:      background 5s infinite;
+        animation:         background 5s infinite;
     }
+@-webkit-keyframes background {
+  0%   { background-color: #ffffff; }
+  50% { background-color: #bdf114; }
+  100%   { background-color: #ffffff; }
+}
+@-moz-keyframes background {
+  0%   { background-color: #ffffff; }
+  50% { background-color: #bdf114; }
+  100%   { background-color: #ffffff; }
+}
+@-o-keyframes background {
+  0%   { background-color: #ffffff; }
+  50% { background-color: #bdf114; }
+  100%   { background-color: #ffffff; }
+}
+@keyframes background {
+  0%   { background-color: #ffffff; }
+  50% { background-color: #bdf114; }
+  100%   { background-color: #ffffff; }
+}
     .navbar-mobile-list {
         background: #ffffff;
     }
